@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "recovery")(type "KiCad")(uri "${KIPRJMOD}/recovery.kicad_sym")(options "")(descr ""))
 )
