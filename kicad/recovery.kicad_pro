@@ -613,7 +613,7 @@
           "group_by": false,
           "label": "LCSC PN",
           "name": "LCSC PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -799,6 +799,12 @@
           "group_by": false,
           "label": "Manufacturer PN",
           "name": "Manufacturer PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Link",
+          "name": "DigiKey Link",
           "show": false
         }
       ],
