@@ -556,7 +556,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../dingboard_solidworks/reference_pcb.step",
+      "step": "../solidworks/recovery.step",
       "svg": "",
       "vrml": ""
     },
