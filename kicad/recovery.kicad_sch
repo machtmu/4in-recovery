@@ -1696,26 +1696,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
-				(at 12.7 1.2701 0)
+			(property "Reference" "Q"
+				(at 12.7101 2.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "SI7232DN-T1-GE3"
-				(at 12.7 -1.2699 0)
+				(at 12.7037 -2.5408 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "4in-recovery:SI7232DN-T1-GE3"
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1725,7 +1725,7 @@
 				)
 			)
 			(property "Datasheet" "kicad-embed://C144854.pdf"
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 				)
 			)
 			(property "Description" "Dual N-Channel 20 V (D-S) MOSFET"
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 				)
 			)
 			(property "LCSC PN" "C144854"
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1752,7 +1752,7 @@
 				)
 			)
 			(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-SI7232DN_T1GE3/C144854"
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1761,7 +1761,7 @@
 				)
 			)
 			(property "JLC Price" "C$0.9824 "
-				(at 15.24 -29.21 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1828,8 +1828,8 @@
 					)
 				)
 				(rectangle
-					(start 4.8078 -30.48)
-					(end 5.588 -31.7545)
+					(start 4.8078 -31.7545)
+					(end 5.588 -30.48)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -2733,24 +2733,6 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
 					(number "6"
 						(effects
 							(font
@@ -2787,24 +2769,6 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -21.59 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
 					(number "8"
 						(effects
 							(font
@@ -2824,6 +2788,46 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SI7232DN-T1-GE3_1_0"
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -21.59 270)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9114,10 +9118,6 @@
 		(uuid "05ebd4f7-7630-4046-8530-92fed15d5103")
 	)
 	(no_connect
-		(at 325.12 148.59)
-		(uuid "07e192b4-2245-40e5-84f8-c56acbd86420")
-	)
-	(no_connect
 		(at 318.77 344.17)
 		(uuid "0d44b016-e0a9-4e99-8bbc-cd9495828f83")
 	)
@@ -9158,8 +9158,8 @@
 		(uuid "33003258-d935-46ad-a13d-653dd96c6350")
 	)
 	(no_connect
-		(at 325.12 146.05)
-		(uuid "3a999592-5509-4447-aa34-836182d2286e")
+		(at 325.12 153.67)
+		(uuid "3d2230ee-7f35-4b26-aec7-69ab06d3734c")
 	)
 	(no_connect
 		(at 60.96 346.71)
@@ -9186,10 +9186,6 @@
 		(uuid "78cbdd7c-c19c-4d2c-8a81-359df67f3427")
 	)
 	(no_connect
-		(at 325.12 156.21)
-		(uuid "8252aea5-af9e-4ad7-80a6-51f644eccdaf")
-	)
-	(no_connect
 		(at 325.12 168.91)
 		(uuid "89c85541-66ad-4ef0-b48d-a8153844ecb1")
 	)
@@ -9202,20 +9198,12 @@
 		(uuid "8c99724b-a1c8-47a6-9ab0-b4967b5ac6a2")
 	)
 	(no_connect
-		(at 325.12 143.51)
-		(uuid "9148b5d3-7746-407a-8dae-69e71b1cfeba")
-	)
-	(no_connect
 		(at 325.12 176.53)
 		(uuid "a5da2993-49c8-4bf3-b97e-305becd66a3f")
 	)
 	(no_connect
 		(at 325.12 204.47)
 		(uuid "a9a711ac-902e-4053-9132-e28e78467b5e")
-	)
-	(no_connect
-		(at 325.12 153.67)
-		(uuid "b5fbf419-6637-4293-898f-938de99c3930")
 	)
 	(no_connect
 		(at 267.97 349.25)
@@ -9238,10 +9226,6 @@
 		(uuid "da08de09-7788-4b8d-92a8-8e4a0a595b43")
 	)
 	(no_connect
-		(at 325.12 151.13)
-		(uuid "e8efca7a-acc2-4e38-9dba-4c91863e5741")
-	)
-	(no_connect
 		(at 325.12 181.61)
 		(uuid "f57286df-c783-46f3-a57c-a8b48dd2c9c1")
 	)
@@ -9254,12 +9238,16 @@
 		(uuid "fa6aef44-b691-4206-ade3-88b6daf520f8")
 	)
 	(no_connect
+		(at 325.12 156.21)
+		(uuid "ff155161-f569-4591-a997-78afe4f64b95")
+	)
+	(no_connect
 		(at 325.12 219.71)
 		(uuid "ff555d61-9507-4a0d-a1b2-1d55ed12916c")
 	)
 	(wire
 		(pts
-			(xy 450.85 210.82) (xy 435.61 210.82)
+			(xy 435.61 210.82) (xy 450.85 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10549,6 +10537,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 227.33) (xy 435.61 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d3a16b-21ae-4c90-991d-417d735f8aed")
+	)
+	(wire
+		(pts
 			(xy 260.35 189.23) (xy 274.32 189.23)
 		)
 		(stroke
@@ -11181,6 +11179,28 @@
 			)
 		)
 	)
+	(global_label "sense_m"
+		(shape input)
+		(at 325.12 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36c86e35-8eae-40a0-be86-7d3b6e29fe71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.1485 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC1"
 		(shape input)
 		(at 346.71 347.98 180)
@@ -11621,6 +11641,50 @@
 			)
 		)
 	)
+	(global_label "fire_m"
+		(shape input)
+		(at 325.12 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c55c24ef-db4a-4b0e-9abc-38b2142e2480")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.9714 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "fire_d"
+		(shape input)
+		(at 325.12 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c58fb19b-8068-4a07-8b33-2776f70ea596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.4271 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANINT"
 		(shape input)
 		(at 325.12 201.93 0)
@@ -11766,6 +11830,28 @@
 		(uuid "dfb469b6-6bef-4d56-a488-999fc8d860e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 328.3472 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sense_d"
+		(shape input)
+		(at 325.12 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4c69f90-2ada-44a9-940b-c706ae0e7767")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.6042 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12182,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 435.61 226.06 0)
+		(at 435.61 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12105,7 +12191,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e500d1c-7621-45da-a323-692e908c250b")
 		(property "Reference" "#PWR037"
-			(at 435.61 232.41 0)
+			(at 435.61 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12200,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 435.61 231.14 0)
+			(at 435.61 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 435.61 226.06 0)
+			(at 435.61 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 226.06 0)
+			(at 435.61 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 435.61 226.06 0)
+			(at 435.61 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,7 +13216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19303877-50fd-4540-821b-217e8ab0b120")
-		(property "Reference" "R6"
+		(property "Reference" "R31"
 			(at 422.91 223.5199 0)
 			(effects
 				(font
@@ -13184,7 +13270,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R6")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13901,7 +13987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24bf140e-6296-4f71-964f-ad67462ae374")
-		(property "Reference" "R10"
+		(property "Reference" "R32"
 			(at 453.39 213.3599 0)
 			(effects
 				(font
@@ -13955,7 +14041,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R10")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14101,7 +14187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2778098a-8370-40ae-8635-d75ed41e2ec8")
-		(property "Reference" "R2"
+		(property "Reference" "R20"
 			(at 424.18 185.42 90)
 			(effects
 				(font
@@ -14153,7 +14239,7 @@
 		(instances
 			(project ""
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R2")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15841,7 +15927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a876cdf-d859-478d-92d4-9eb13c97f5c2")
-		(property "Reference" "R11"
+		(property "Reference" "R33"
 			(at 453.39 220.9799 0)
 			(effects
 				(font
@@ -15895,7 +15981,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R11")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17260,6 +17346,122 @@
 		)
 	)
 	(symbol
+		(lib_id "4in-recovery:SI7232DN-T1-GE3")
+		(at 427.99 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d23b2aa-627c-480c-b2a4-ea05c77e0298")
+		(property "Reference" "Q1"
+			(at 440.69 202.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI7232DN-T1-GE3"
+			(at 440.69 205.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4in-recovery:SI7232DN-T1-GE3"
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://C144854.pdf"
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel 20 V (D-S) MOSFET"
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C144854"
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-SI7232DN_T1GE3/C144854"
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Price" "C$0.9824 "
+			(at 427.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1a172bde-200f-4e59-a9e1-0ef2057e3d91")
+		)
+		(pin "3"
+			(uuid "7df6cfd5-033e-4ae3-bede-bf79613cbd6c")
+		)
+		(pin "8"
+			(uuid "32b87619-d7b5-4eef-b324-149dc459f591")
+		)
+		(pin "1"
+			(uuid "deeff6b5-e91f-4320-9642-040bea7e8ba7")
+		)
+		(pin "5"
+			(uuid "616bea99-8166-4d78-9c73-430a4374963d")
+		)
+		(pin "7"
+			(uuid "be5482e2-f8a3-443d-84a5-4fce1c3c02c3")
+		)
+		(pin "6"
+			(uuid "d1663192-8b04-4474-9072-6bc407dfde75")
+		)
+		(pin "2"
+			(uuid "60a0df61-0762-4374-b62c-bdddd7b7b849")
+		)
+		(instances
+			(project ""
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 92.71 167.64 270)
 		(unit 1)
@@ -17453,7 +17655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e32b9a5-f7ce-45e9-b609-59e7d9e42ccf")
-		(property "Reference" "R5"
+		(property "Reference" "R21"
 			(at 422.91 194.3099 0)
 			(effects
 				(font
@@ -17507,7 +17709,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R5")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17870,122 +18072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4in-recovery:SI7232DN-T1-GE3")
-		(at 427.99 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a21c876-5e24-400f-9150-53ec246750a2")
-		(property "Reference" "Q1"
-			(at 438.912 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI7232DN-T1-GE3"
-			(at 440.69 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4in-recovery:SI7232DN-T1-GE3"
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://C144854.pdf"
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual N-Channel 20 V (D-S) MOSFET"
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C144854"
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-SI7232DN_T1GE3/C144854"
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Price" "C$0.9824 "
-			(at 443.23 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5e408811-e976-4313-a66d-31413b453be6")
-		)
-		(pin "1"
-			(uuid "f354fb8e-1051-4dbf-bf6e-c2ce179da8f8")
-		)
-		(pin "8"
-			(uuid "e3734d54-1ffc-4d0b-9ada-1319a84404fd")
-		)
-		(pin "2"
-			(uuid "3627a7b7-fecf-4787-90ef-a4fe0276e4ff")
-		)
-		(pin "5"
-			(uuid "27f3f823-df4f-4afc-82e0-1fb0e588e28d")
-		)
-		(pin "6"
-			(uuid "b7942d78-b872-4bc5-a41a-7e918e7bafe4")
-		)
-		(pin "3"
-			(uuid "2ca3a67f-5165-4243-8b11-684fe3f31489")
-		)
-		(pin "7"
-			(uuid "11c56bee-072a-4a28-849b-9ca7338649bb")
-		)
-		(instances
-			(project ""
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 450.85 185.42 180)
 		(unit 1)
@@ -17995,7 +18081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0ae0fe-88bb-4249-a380-712b95d96e14")
-		(property "Reference" "R8"
+		(property "Reference" "R22"
 			(at 453.39 184.1499 0)
 			(effects
 				(font
@@ -18049,7 +18135,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R8")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -18380,7 +18466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8142864a-36d1-490f-b2b8-dfbac039f7a9")
-		(property "Reference" "R7"
+		(property "Reference" "R300"
 			(at 424.18 214.63 90)
 			(effects
 				(font
@@ -18432,7 +18518,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R7")
+					(reference "R300")
 					(unit 1)
 				)
 			)
@@ -23019,7 +23105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff08bfff-e7a0-4955-8f7f-18f50fe9a30b")
-		(property "Reference" "R9"
+		(property "Reference" "R23"
 			(at 453.39 191.7699 0)
 			(effects
 				(font
@@ -23073,7 +23159,7 @@
 		(instances
 			(project "recovery"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R9")
+					(reference "R23")
 					(unit 1)
 				)
 			)
