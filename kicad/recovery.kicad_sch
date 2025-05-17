@@ -8716,6 +8716,17 @@
 		)
 		(uuid "91369de9-92c3-4737-82df-a4d19249e084")
 	)
+	(text "Parachute Circuit"
+		(exclude_from_sim no)
+		(at 447.04 240.284 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e0c27bc-9b95-457e-877e-7958f9a54391")
+	)
 	(text "Recovery Module 0.1.0"
 		(exclude_from_sim no)
 		(at 493.014 386.842 0)
@@ -8784,7 +8795,7 @@
 		(uuid "0d310a6c-bfe4-4486-8791-ce4429f4ed91")
 	)
 	(junction
-		(at 491.49 223.52)
+		(at 490.22 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11745b82-e39e-4ea1-8c56-19f41f138d76")
@@ -8826,7 +8837,7 @@
 		(uuid "1e0f18aa-cf13-4ab8-b6f4-aad13a973caf")
 	)
 	(junction
-		(at 491.49 217.17)
+		(at 490.22 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "267b98bb-9899-4a5a-a8f5-78f4a0aab8ca")
@@ -9158,10 +9169,6 @@
 		(uuid "33003258-d935-46ad-a13d-653dd96c6350")
 	)
 	(no_connect
-		(at 325.12 153.67)
-		(uuid "3d2230ee-7f35-4b26-aec7-69ab06d3734c")
-	)
-	(no_connect
 		(at 60.96 346.71)
 		(uuid "42471cee-e602-43fa-8392-a2e6413f774a")
 	)
@@ -9176,6 +9183,10 @@
 	(no_connect
 		(at 325.12 207.01)
 		(uuid "5f515b02-760b-4f5c-8034-c43d5a46c51d")
+	)
+	(no_connect
+		(at 325.12 143.51)
+		(uuid "68facaa4-4054-4459-8c85-bd5b1520c62b")
 	)
 	(no_connect
 		(at 267.97 344.17)
@@ -9222,6 +9233,10 @@
 		(uuid "d0d6ede5-7693-4d1a-9bb0-860e7af79c73")
 	)
 	(no_connect
+		(at 325.12 146.05)
+		(uuid "d9fab738-7c8e-4bff-b8ae-67d461cee990")
+	)
+	(no_connect
 		(at 60.96 311.15)
 		(uuid "da08de09-7788-4b8d-92a8-8e4a0a595b43")
 	)
@@ -9236,10 +9251,6 @@
 	(no_connect
 		(at 325.12 214.63)
 		(uuid "fa6aef44-b691-4206-ade3-88b6daf520f8")
-	)
-	(no_connect
-		(at 325.12 156.21)
-		(uuid "ff155161-f569-4591-a997-78afe4f64b95")
 	)
 	(no_connect
 		(at 325.12 219.71)
@@ -9547,7 +9558,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 223.52) (xy 491.49 223.52)
+			(xy 486.41 223.52) (xy 490.22 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9647,7 +9658,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 210.82) (xy 450.85 210.82)
+			(xy 490.22 210.82) (xy 450.85 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10077,7 +10088,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 219.71) (xy 491.49 217.17)
+			(xy 490.22 219.71) (xy 490.22 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10217,7 +10228,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 223.52) (xy 491.49 224.79)
+			(xy 490.22 223.52) (xy 490.22 224.79)
 		)
 		(stroke
 			(width 0)
@@ -10417,7 +10428,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 222.25) (xy 491.49 223.52)
+			(xy 490.22 222.25) (xy 490.22 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10817,7 +10828,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 217.17) (xy 491.49 210.82)
+			(xy 490.22 217.17) (xy 490.22 210.82)
 		)
 		(stroke
 			(width 0)
@@ -11181,7 +11192,7 @@
 	)
 	(global_label "sense_m"
 		(shape input)
-		(at 325.12 151.13 0)
+		(at 325.12 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11191,7 +11202,7 @@
 		)
 		(uuid "36c86e35-8eae-40a0-be86-7d3b6e29fe71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.1485 151.13 0)
+			(at 336.1485 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +11654,7 @@
 	)
 	(global_label "fire_m"
 		(shape input)
-		(at 325.12 143.51 0)
+		(at 325.12 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11653,7 +11664,7 @@
 		)
 		(uuid "c55c24ef-db4a-4b0e-9abc-38b2142e2480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.9714 143.51 0)
+			(at 333.9714 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11676,7 @@
 	)
 	(global_label "fire_d"
 		(shape input)
-		(at 325.12 146.05 0)
+		(at 325.12 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11675,7 +11686,7 @@
 		)
 		(uuid "c58fb19b-8068-4a07-8b33-2776f70ea596")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.4271 146.05 0)
+			(at 333.4271 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +14360,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 487.68 223.52 0)
+		(at 486.41 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14357,7 +14368,7 @@
 		(dnp no)
 		(uuid "2c10e12e-5d07-4761-b6af-4eaaf2353f6a")
 		(property "Reference" "#PWR041"
-			(at 487.68 227.33 0)
+			(at 486.41 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14377,7 @@
 			)
 		)
 		(property "Value" "v_lipo"
-			(at 487.68 219.964 0)
+			(at 486.41 219.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,7 +14385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 487.68 223.52 0)
+			(at 486.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,7 +14394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 487.68 223.52 0)
+			(at 486.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14392,7 +14403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 487.68 223.52 0)
+			(at 486.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19096,7 +19107,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 330.2 0)
+		(at 127 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19104,7 +19115,7 @@
 		(dnp no)
 		(uuid "97266627-86a3-48c5-a9b5-1c9ae7074475")
 		(property "Reference" "R1"
-			(at 121.666 329.184 0)
+			(at 121.666 321.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19113,7 +19124,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.666 331.47 0)
+			(at 121.666 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +19133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 125.222 330.2 90)
+			(at 125.222 322.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19131,7 +19142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +19151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19149,7 +19160,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19158,7 +19169,7 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19167,7 +19178,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19176,7 +19187,7 @@
 			)
 		)
 		(property "info" "150 ohm"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19185,7 +19196,7 @@
 			)
 		)
 		(property "price" "C$0.0007"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19194,7 +19205,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19203,7 +19214,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19212,7 +19223,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19221,7 +19232,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19230,7 +19241,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19239,7 +19250,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19248,7 +19259,7 @@
 			)
 		)
 		(property "LCSC PN" "C11702"
-			(at 127 330.2 0)
+			(at 127 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +19396,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 322.58 270)
+		(at 127 330.2 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19394,7 +19405,7 @@
 		(dnp no)
 		(uuid "9c579e54-d5bf-49f5-a111-e3185d0de7b4")
 		(property "Reference" "D1"
-			(at 129.54 324.104 0)
+			(at 129.54 331.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19402,7 +19413,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 131.826 324.104 0)
+			(at 131.826 331.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,7 +19421,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19419,7 +19430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,7 +19439,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19437,7 +19448,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19446,7 +19457,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,7 +19466,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19464,7 +19475,7 @@
 			)
 		)
 		(property "info" "Red LED"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19473,7 +19484,7 @@
 			)
 		)
 		(property "price" "C$0.0075 "
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19482,7 +19493,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19491,7 +19502,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19500,7 +19511,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19509,7 +19520,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19518,7 +19529,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19527,7 +19538,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19536,7 +19547,7 @@
 			)
 		)
 		(property "LCSC PN" "C2286"
-			(at 127 322.58 0)
+			(at 127 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20238,7 +20249,7 @@
 	)
 	(symbol
 		(lib_id "recovery:wago-2060-452_998-404")
-		(at 491.49 217.17 0)
+		(at 490.22 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20247,7 +20258,7 @@
 		(fields_autoplaced yes)
 		(uuid "a822c4eb-97c5-4fe2-a18b-34911384241f")
 		(property "Reference" "J2"
-			(at 505.46 219.7099 0)
+			(at 504.19 219.7099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20256,7 +20267,7 @@
 			)
 		)
 		(property "Value" "wago 2060-452/998-404"
-			(at 505.46 222.2499 0)
+			(at 504.19 222.2499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20265,7 +20276,7 @@
 			)
 		)
 		(property "Footprint" "4in-recovery:wago-2060-452_998-404"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20275,7 +20286,7 @@
 			)
 		)
 		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2060-452_998-404/en/d41d8cd98f00b204e9800998ecf8427e?attempt=1&signature=712088e607c8db2a1e4332d165aae8af_1iee2vob6"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20285,7 +20296,7 @@
 			)
 		)
 		(property "Description" "Wago 2060-452/998-404"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20294,7 +20305,7 @@
 			)
 		)
 		(property "DigiKey Link" "https://www.digikey.ca/en/products/detail/wago-corporation/2060-452-998-404/15540283"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20303,7 +20314,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/Wago-2060_452_998404/C2765055"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20312,7 +20323,7 @@
 			)
 		)
 		(property "LCSC PN" "C2765055"
-			(at 491.49 217.17 0)
+			(at 490.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
