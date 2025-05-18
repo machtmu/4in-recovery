@@ -11114,7 +11114,7 @@
 	)
 	(global_label "sense_m"
 		(shape input)
-		(at 327.66 217.17 0)
+		(at 327.66 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11124,7 +11124,7 @@
 		)
 		(uuid "36c86e35-8eae-40a0-be86-7d3b6e29fe71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.6885 217.17 0)
+			(at 338.6885 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11752,7 @@
 	)
 	(global_label "sense_d"
 		(shape input)
-		(at 327.66 214.63 0)
+		(at 327.66 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11762,7 +11762,7 @@
 		)
 		(uuid "e4c69f90-2ada-44a9-940b-c706ae0e7767")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.1442 214.63 0)
+			(at 338.1442 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19959,7 +19959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x1"
+		(property "Footprint" "4in-kicad-library:PCIeX1"
 			(at 74.93 261.62 0)
 			(effects
 				(font
