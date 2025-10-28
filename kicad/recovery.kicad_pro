@@ -611,12 +611,6 @@
         },
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "info",
           "name": "info",
           "show": false
@@ -625,6 +619,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -1022,7 +1022,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
